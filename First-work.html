@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .input1
+        {
+  
+        width: 544px;
+        height: 50px;
+        }
+        .denglu
+        {
+ 
+            width: 233px;
+            height: 47px;
+            margin-right: 82px;
+            border: 1px solid #0381aa;
+            color: #fff;background-color: 
+            #00a7de;
+        }
+        .zhuce
+        {
+            width: 233px;
+            height: 47px; 
+            background-color: rgb(255, 255, 255);  
+        }
+    </style>
+</head>
+</style>
+<body>
+    <div class="margin">
+    <span style="color: #02a7de;margin-right: 20px;">密码登录</span>
+    <span >短信登录</span>  
+    </div>
+    
+    <form >
+    <input type="text"  name="username"  placeholder="你的手机号/邮箱"class="input1"><br><br><br>
+    <input type="password" name="password"   placeholder="密码"class="input1" ><br><br><br>
+    </form>
+    <div>
+       <input type="checkbox" name="vehicle"checked="checked">
+        <span>记住我</span>
+        <span style="color: #bbb;margin-left: 10px;"><small>不是自己的电脑上不要勾选此项</small></span>
+        <span style="color:  #02a7de;margin-right: 10px; margin-left: 81px;"><small>无法验证？验证密码？</small></span>
+    </div>  <br>
+    <input  type="submit" name="denglu" value="登录" class="denglu">       
+    <input  type="submit" name="zhuce" value="注册" class="zhuce" >
+    <br>
+    <img src="wb.png" ><a href="https://api.weibo.com/oauth2/authorize?client_id=2841902482&redirect_uri=https%3A%2F%2Fpassport.bilibili.com%2Flogin%2Fsnsback%3Fsns%3Dweibo%26state%3Dc0acf41066c611ebb0b6c61daeceb81d&scope=email###" >微博账户登录</a>
+    <img src="QQ.png" ><a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&state=authorize&client_id=101135748&redirect_uri=https%3A%2F%2Fpassport.bilibili.com%2Flogin%2Fsnsback%3Fsns%3Dqq%26%26state%3Dc0acf41066c611ebb0b6c61daeceb81d&scope=do_like,get_user_info,get_simple_userinfo,get_vip_info,get_vip_rich_info,add_one_blog,list_album,upload_pic,add_album,list_photo,get_info,add_t,del_t,add_pic_t,get_repost_list,get_other_info,get_fanslist,get_idollist,add_idol,del_idol,get_tenpay_addr" >QQ账户登录</a>
+
+</body>
+</html>
